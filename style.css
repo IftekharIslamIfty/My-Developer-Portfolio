@@ -6,15 +6,16 @@ H1{
     font-size: 50px;
 }
 .span1{color: orange;}
-section{
+.Flexible-Contianer{
     display: flex;
+    margin-bottom: 100px;
 }
 .Half-Widght{
     width: 50%;
     padding-left: 3%;
 }
 .Half-Widght img{
-    width: 80%;
+    width: 70%;
 }
 .LinkButton{
     color: white;
@@ -25,3 +26,9 @@ section{
     font-weight: 400;
 }.top-banner{background-image: url(img/top-banner.png);
 background-repeat: no-repeat;}
+
+}
+.Dream-Big{
+    background-image: url(img/dream-bg.png);
+    background-position: right;
+}
