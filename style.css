@@ -5,7 +5,7 @@ body{
 H1{
     font-size: 50px;
 }
-.span1{color: orange;}
+.Span1{color: orange;}
 .Flexible-Contianer{
     display: flex;
     margin-bottom: 100px;
@@ -32,3 +32,31 @@ background-repeat: no-repeat;}
     background-image: url(img/dream-bg.png);
     background-position: right;
 }
+.Experience-Div{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 10px;
+border-radius: 10px;
+}
+h2{font-size: 40px;}
+.Experience-Area{
+    background-image: url(img/exp-bg.png)
+    ;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#Baby-Web{
+    border-left: 7px solid ; 
+border-image: Linear-Gradient(Blue,cyan);
+border-image-slice: 1;
+
+}
+#Full-Stack{
+border-left: solid 7px;
+border-image: linear-gradient(red,Orange);
+border-image-slice: 1;
+}
+footer{text-align: center;}
